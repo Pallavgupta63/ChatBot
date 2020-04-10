@@ -1,0 +1,54 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","Hey"],
+         "responses": ["Hello!", "Hey! Good to see you!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["see you", "Goodbye", "I am Leaving", "Have a Good day","Bye"],
+         "responses": ["Thanks for talking to me :)", "Goodbye!","Until next time :)"],
+         "context_set": ""
+        },
+		{"tag": "smalltalk",
+         "patterns": ["how is the day", "how are you working","how's you","how are you doing?","how are you"],
+         "responses": ["I am doing good today! I hope you're doing fine as well"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is chatbot", "when did you start?", "how old are you", "age?"],
+         "responses": ["I was born at Q-561 on 24th October!","I am a new and evolving"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","who are you?","what are you?"],
+         "responses": ["You can call me VIT FAQ Chatbot.", "I'm VIT FAQ Chatbot!", "I'm VIT FAQ Chatbot."],
+         "context_set": ""
+        },
+        {"tag": "greet",
+         "patterns": ["thank you", "thanks","thanks for your time","ok","alright","okay"],
+         "responses": ["I am glad I could help :)","What more i can help you with?"],
+         "context_set": ""
+        },
+		{"tag": "course fee payment",
+         "patterns": ["fee for the re-registeration","Re-registered courses payment","payment of re-registration","after re-registration?"],
+         "responses": ["After course registration, you need to generate the invoice. Subsequently, you can pay the course fee through the online fee payment link"],
+         "context_set": ""
+        },
+        {"tag": "general academics",
+            "patterns": ["What is optional semester","Optional semester","explain optional semester"],
+            "responses": ["In an academic year, Fall Semester and Winter Semester are the regular semesters. Other opportunities given for clearing the failed courses such as week end intrasemester, summer term, winter intersessions and others (if any) are termed as optional semesters"],
+            "context_set": ""
+        },
+        {"tag": "NLP",
+            "patterns": ["marks in nlp","project marks","how many marks"],
+            "responses": ["She seems to be a good teacher. I am expecting more than 95","I think S grade","Very good marks above 90 fosho"],
+            "context_set": ""
+        },
+        {"tag": "NLP",
+            "patterns": ["teacher","nlp teacher","name of teacher","nlp teacher name","who is nlp faculty","nlp faculty"],
+            "responses": ["Prof. Arivoli A. She seems to be a good teacher. I am expecting more than 95","My favourite teacher: Prof. Arivoli A. I think she should give me S grade"],
+            "context_set": ""
+        }
+
+   ]
+}
